@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Movie Search</h1>
+        <p>Search for movies by title, genre, or year. Click on a movie to see more details.</p>
+        <form id="searchForm">
+            <input type="text" id="titleInput" placeholder="Title" aria-label="Search by title" />
+            <input type="text" id="genreInput" placeholder="Genre" aria-label="Search by genre" />
+            <input type="text" id="yearInput" placeholder="Year" aria-label="Search by year" />
+            <button type="submit">Search</button>
+        </form>
+
+        <section id="results" aria-live="polite"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
